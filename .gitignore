@@ -105,7 +105,3 @@ venv.bak/
 
 # System-specific files
 **/.DS_Store
-
-# Data
-data/*
-results/*
