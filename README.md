@@ -14,7 +14,7 @@ This repository uses python 3.7.3 and depends on the packages listed in `require
 # How do I use this repository?
 
 ## Accessing Data
-To download and unzip the Plotly dataset-visualization pairs or features, run `./retrieve_data.sh`. Comment lines to specify which subsets or features you want to use. Then create a symlink for to access the data `ln -s data/[ plotly_plots_with_full_data_with_all_fields_and_header_{ 1k, 100k, full }.tsv data/plot_data.tsv`.
+To download and unzip the Plotly dataset-visualization pairs or features, run `./retrieve_data.sh`. Comment lines to specify which subsets or features you want to use. Then create a symlink for to access the data by first going to folder `data` and then use `ln -s plotly_plots_with_full_data_with_all_fields_and_header_{ 1k, 100k, full }.tsv plot_data.tsv`.
 
 ## Preparing Data
 Within the `data_cleaning` directory:
